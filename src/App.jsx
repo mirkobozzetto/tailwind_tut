@@ -21,9 +21,11 @@ function App() {
           <p>divide-y divide-orange-500 1</p>
           <p>divide-y divide-orange-500 2</p>
           <p>divide-y divide-orange-500 3</p>
-          <p>divide-y divide-orange-500 4</p>
-          <p>divide-y divide-orange-500 5</p>
         </div>
+
+        <p className=" outline outline-blue-100 w-full ">
+          outline outline-blue-100
+        </p>
       </div>
     </>
   );
