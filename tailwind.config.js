@@ -2,6 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      sans: ["Inter", "sans-serif"],
+      serif: ["Merriweather", "serif"],
+      mono: ["Menlo", "monospace"],
+    },
     extend: {},
   },
   plugins: [],
