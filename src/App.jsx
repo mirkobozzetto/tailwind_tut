@@ -1,13 +1,13 @@
 import Hello from "./components/Hello";
 import Colors from "./components/Colors";
-import Containers from "./components/Containers";
+import ContainersWithSpace from "./components/ContainersWithSpace";
 
 function App() {
   return (
     <>
       <Hello />
       <Colors />
-      <Containers />
+      <ContainersWithSpace />
     </>
   );
 }
