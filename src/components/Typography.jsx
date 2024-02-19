@@ -11,11 +11,11 @@ const Typography = () => {
 
   return (
     <>
-      <div className="flex flex-col items-baseline p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg mt-12 w-full mb-10">
-        <p className="font-sans">salut</p>
-        <p className="font-serif">salut</p>
-        <p className="font-extrabold">salut</p>
-        <p className="font-mono">salut</p>
+      <div className="flex items-baseline p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg mt-12 w-full mb-10 flex-row">
+        <p className="font-sans text-xs mx-auto">Tailwind</p>
+        <p className="font-serif text-xl mx-auto">Tailwind</p>
+        <p className="font-extrabold text-lg mx-auto">Tailwind</p>
+        <p className="font-mono text-sm mx-auto">Tailwind</p>
       </div>
     </>
   );
